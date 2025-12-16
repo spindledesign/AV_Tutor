@@ -1,0 +1,132 @@
+Prefix(:=<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6>
+
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Avoid_Suspicious_Links>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Backup_Data>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Delete_Threat>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Enable_Firewall>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infected_USB>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Install_Antivirus>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malicious_Email>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malware>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Protecting_a_Computer_from_Virus>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Quarantile_File>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Ransomware>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Run_Scan>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Safe_Browsing>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Spyware>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Suspicious_Download>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Unsafe_Website>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Antivirus_Definitions>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Software>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Virus>))
+Declaration(Class(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Worm>))
+############################
+#   Classes
+############################
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Avoid_Suspicious_Links> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Avoid_Suspicious_Links>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Avoid_Suspicious_Links> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Backup_Data> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Backup_Data>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Backup_Data> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Delete_Threat> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Delete_Threat>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Delete_Threat> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Enable_Firewall> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Enable_Firewall>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Enable_Firewall> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infected_USB> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infected_USB>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infected_USB> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Protecting_a_Computer_from_Virus>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Install_Antivirus> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Install_Antivirus>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Install_Antivirus> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malicious_Email> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malicious_Email>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malicious_Email> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malware> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malware>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Malware> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Protecting_a_Computer_from_Virus>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Quarantile_File> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Quarantile_File>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Quarantile_File> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Ransomware> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Ransomware>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Ransomware> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Protecting_a_Computer_from_Virus>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Run_Scan> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Run_Scan>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Run_Scan> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Safe_Browsing> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Safe_Browsing>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Safe_Browsing> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Spyware> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Spyware>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Spyware> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Suspicious_Download> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Suspicious_Download>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Suspicious_Download> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Protecting_a_Computer_from_Virus>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Unsafe_Website> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Unsafe_Website>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Unsafe_Website> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Infection_Vectors>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Antivirus_Definitions> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Antivirus_Definitions>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Antivirus_Definitions> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Response_Actions>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Software> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Software>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Update_Software> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Prevention>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Virus> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Virus>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Virus> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats>)
+
+# Class: <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Worm> (<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Worm>)
+
+SubClassOf(<http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Worm> <http://www.semanticweb.org/apple/ontologies/2025/11/untitled-ontology-6#Threats>)
+
+
+)
